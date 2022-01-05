@@ -10,6 +10,12 @@ body {
   background-position: center;
 }
 .keyboard {
+  /* this will center the div-container */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
   width: 80%;
   height: auto;
   display: flex;
@@ -52,14 +58,19 @@ body {
 }
 /* align-items: center; */
 
+/* this are the example we can by which we can size every element responsively  */
 .keyboard .box:nth-child(1) {
   width: 80px;
 }
 
-.keyboard .box:nth-child(12) {
+.keyboard .box:nth-child(28) {
   width: 120px;
 }
 
-.keyboard .box:nth-child(16) {
+.keyboard .box:nth-child(27) {
+  width: 100px;
+}
+
+.keyboard .box:nth-child(12) {
   width: 100px;
 }
