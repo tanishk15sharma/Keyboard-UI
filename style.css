@@ -9,3 +9,38 @@ body {
   background-size: cover;
   background-position: center;
 }
+.keyboard {
+  width: 80%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  border: 1px solid red;
+  padding: 10px;
+  justify-content: center;
+  /* align-items: center; */
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgb(221, 188, 188),
+    transparent,
+    #fff
+  );
+  box-shadow: 0 0 10px 5px rgb(110, 108, 108);
+  border-radius: 10px;
+}
+
+.keyboard .box {
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  margin: 7px;
+  border-radius: 10px;
+  font-size: 20px;
+  font-family: sans-serif;
+  border: 2px solid rebeccapurple;
+  box-shadow: 1px 2px 0 0 black;
+}
+
+.keyboard .box:hover {
+  background: gray;
+}
