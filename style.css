@@ -42,5 +42,10 @@ body {
 }
 
 .keyboard .box:hover {
-  background: gray;
+  background: rgb(211, 175, 175);
+}
+.keyboard .box:active {
+  background: rgb(226, 138, 138);
+  box-shadow: inset 0 0 10px 10px rgb(243, 97, 97);
+  transform: scale(0.9);
 }
